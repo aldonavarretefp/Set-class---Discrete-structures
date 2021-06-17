@@ -105,4 +105,5 @@ else:
 M= {1,2,3,4}
 N = {2,3,100}
 
-print("Es subconjunto") if N.issubset(M) else print("No es subconjunto")
+print(f"{N} es subconjunto de {M}") if N.issubset(M) else print(f"{N} NO es subconjunto de {M}")
+
